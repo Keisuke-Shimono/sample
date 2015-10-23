@@ -1,0 +1,20 @@
+<ion-view>
+  <ion-content padding="true" class="tum-background">
+    <div class="list tum-list primary">
+      <div class="item item-image">
+        <img src="/images/logo.png" alt=""/>
+      </div>
+      <form ng-submit="signin(email, pass)">
+        <label class="item tum-input">
+          <input type="text" placeholder="Email" ng-model="email">
+        </label>
+        <label class="item tum-input">
+          <input type="password" placeholder="Password" ng-model="pass">
+        </label>
+        <div class="item">
+          <button type="submit" class="button button-block tum-btn-secondary">Login</button>
+        </div>
+      </form>
+    </div>
+  </ion-content>
+</ion-view>
